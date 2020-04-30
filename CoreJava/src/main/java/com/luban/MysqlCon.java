@@ -16,6 +16,10 @@ public class MysqlCon {
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai","root","1234");
         System.out.println(connection);
         System.out.println(System.getProperties());
+
+
+
+        
     }
 
 }
